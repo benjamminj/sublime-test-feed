@@ -1,5 +1,7 @@
 name: "Another freemail provider"
 type: "rule"
+authors:
+  - name: "Ben Johnson"
 source: |
   type.inbound
   and sender.email.domain.root_domain in $free_email_providers
