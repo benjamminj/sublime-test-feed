@@ -2,6 +2,13 @@ name: "Another freemail provider"
 type: "rule"
 authors:
   - twitter: "benjamminj"
+attack_types:
+  - "Fraud"
+tactics_and_techniques:
+  - "Free email provider"
+  - "Free subdomain"
+detection_methods:
+  - "HTML analysis"
 source: |
   type.inbound
   and sender.email.domain.root_domain in $free_email_providers
