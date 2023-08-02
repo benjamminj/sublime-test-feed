@@ -7,8 +7,10 @@ attack_types:
 tactics_and_techniques:
   - "Free email provider"
   - "Free subdomain"
+  - "Evasion"
 detection_methods:
   - "HTML analysis"
+  - "Whois"
 source: |
   type.inbound
   and sender.email.domain.root_domain in $free_email_providers
