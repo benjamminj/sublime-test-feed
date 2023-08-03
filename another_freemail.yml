@@ -3,7 +3,7 @@ type: "rule"
 authors:
   - twitter: "benjamminj"
 attack_types:
-  - "Fraud"
+  - "BEC/Fraud"
   - "Callback Phishing"
 tactics_and_techniques:
   - "Free email provider"
