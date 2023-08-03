@@ -2,6 +2,8 @@ name: "Freemail provider"
 type: "rule"
 authors:
   - twitter: benjamminj
+attack_types:
+  - "Fraud"
 source: |
   type.inbound
   and sender.email.domain.root_domain in $free_email_providers
