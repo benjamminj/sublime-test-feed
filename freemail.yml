@@ -4,6 +4,7 @@ authors:
   - twitter: benjamminj
 attack_types:
   - "BEC/Fraud"
+  - "Potato"
 source: |
   type.inbound
   and sender.email.domain.root_domain in $free_email_providers
