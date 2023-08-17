@@ -6,7 +6,7 @@ attack_types:
   - "BEC/Fraud"
 tactics_and_techniques:
   - "Free email provider"
-  - "Free subdomain"
+  - "Free subdomain host"
   - "Evasion"
 detection_methods:
   - "HTML analysis"
