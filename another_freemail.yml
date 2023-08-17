@@ -4,7 +4,6 @@ authors:
   - twitter: "benjamminj"
 attack_types:
   - "BEC/Fraud"
-  - "Callback Phishing"
 tactics_and_techniques:
   - "Free email provider"
   - "Free subdomain"
