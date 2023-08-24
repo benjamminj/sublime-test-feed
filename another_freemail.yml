@@ -14,3 +14,4 @@ detection_methods:
 source: |
   type.inbound
   and sender.email.domain.root_domain in $free_email_providers
+  and true
