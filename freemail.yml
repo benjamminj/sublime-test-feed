@@ -1,5 +1,6 @@
 name: "Freemail provider"
 type: "rule"
+severity: "critical"
 authors:
   - twitter: benjamminj
 attack_types:
